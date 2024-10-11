@@ -25,7 +25,9 @@ SECRET_KEY = "django-insecure-fg)#tp4kt77h(lci=3i$ssd2^vr(3sh5lau=x#1#(svfzf!9v&
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    ".railway.app" # https://saas.prod.railway.app
+    ".railway.app",
+    ".onrender.com" 
+    # https://saas.prod.railway.app
 ]
 if DEBUG:
     ALLOWED_HOSTS += [
